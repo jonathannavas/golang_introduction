@@ -1,0 +1,8 @@
+Logger: 2023/03/11 10:58:23 C:/Users/Jonathan/go/src/github.com/jonathannavas/golang_introduction/11.interPackages/log/main.go:28: pruebas0
+Logger: 2023/03/11 10:58:23 C:/Users/Jonathan/go/src/github.com/jonathannavas/golang_introduction/11.interPackages/log/main.go:29: pruebas1
+Logger: 2023/03/11 10:58:23 C:/Users/Jonathan/go/src/github.com/jonathannavas/golang_introduction/11.interPackages/log/main.go:30: pruebas2
+Logger: 2023/03/11 10:58:23 C:/Users/Jonathan/go/src/github.com/jonathannavas/golang_introduction/11.interPackages/log/main.go:31: pruebas3
+error: 2023/03/11 10:58:23 C:/Users/Jonathan/go/src/github.com/jonathannavas/golang_introduction/11.interPackages/log/main.go:34: pruebas0
+error: 2023/03/11 10:58:23 C:/Users/Jonathan/go/src/github.com/jonathannavas/golang_introduction/11.interPackages/log/main.go:35: pruebas1
+error: 2023/03/11 10:58:23 C:/Users/Jonathan/go/src/github.com/jonathannavas/golang_introduction/11.interPackages/log/main.go:36: pruebas2
+error: 2023/03/11 10:58:23 C:/Users/Jonathan/go/src/github.com/jonathannavas/golang_introduction/11.interPackages/log/main.go:37: pruebas3

@@ -1,0 +1,3 @@
+MODE=Prod
+ENV_1=Hola 2
+ENV_2=Hola Saludos 2

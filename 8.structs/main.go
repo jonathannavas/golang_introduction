@@ -5,6 +5,7 @@ import (
 	"fmt"
 
 	"github.com/jonathannavas/golang_introduction/8.structs/structsInterface/structs"
+	"github.com/jonathannavas/golang_introduction/8.structs/structsInterface/vehicles"
 )
 
 func main() {
@@ -110,5 +111,23 @@ func main() {
 	fmt.Println("...Carrito de compras...")
 	fmt.Println("Total Products:", len(cart.Products))
 	fmt.Printf("Total cart: $%.2f\n", cart.Total())
+
+	fmt.Println()
+	fmt.Println("Vehicles")
+
+	carV := vehicles.Car{Time: 120}
+	fmt.Println("Distance:", carV.Distance())
+
+	vArray := []string{"car", "moto", "truck", "test"}
+	d := 400
+	for _, v := range vArray {
+		vehi, err := vehicles.New(v, d)
+		if err != nil {
+			fmt.Println("Error: ", err)
+			fmt.Println()
+			continue
+		}
+		fmt.Printf("Vehicle: %s,Distance: %.2f\n", v, vehi.Distance())
+	}
 
 }
